@@ -54,7 +54,7 @@ export default function Contact() {
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
               <a
-                href="#"
+                href="mailto:chajriamine911@gmail.com"
                 className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-cyan-300 to-sky-400 px-6 py-3 text-sm font-bold text-slate-950 shadow-[0_12px_36px_-14px_rgba(34,211,238,0.8)] transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_18px_44px_-14px_rgba(34,211,238,0.9)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-300 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0D1321]"
               >
                 Say hello
@@ -84,6 +84,8 @@ export default function Contact() {
                 <a
                   key={label}
                   href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={label}
                   className="group flex items-center gap-3 rounded-2xl border border-white/[0.06] bg-white/[0.025] p-3.5 transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300/20 hover:bg-cyan-300/[0.06] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0D1321]"
                 >

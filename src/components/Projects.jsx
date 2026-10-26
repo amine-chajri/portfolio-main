@@ -467,6 +467,8 @@ function ProjectCard({ project }) {
           </div>
           <a
             href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label={`View the ${project.title} live demo`}
             className="mt-5 flex h-8 w-8 shrink-0 items-center justify-center rounded-full border border-white/[0.08] bg-white/[0.03] text-slate-500 transition-all duration-300 hover:border-cyan-300/25 hover:bg-cyan-300/10 hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0D1321] group-hover:border-cyan-300/20 group-hover:text-cyan-300"
           >
@@ -497,6 +499,8 @@ function ProjectCard({ project }) {
         <div className="mt-6 flex items-center justify-between gap-3 border-t border-white/[0.06] pt-4">
           <a
             href={project.demo}
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label={`Open the ${project.title} live demo`}
             className="group/demo inline-flex items-center gap-1.5 rounded-full border border-white/[0.08] bg-white/[0.035] px-3 py-1.5 text-[11px] font-medium text-slate-300 transition-all duration-300 hover:border-cyan-300/20 hover:bg-cyan-300/10 hover:text-cyan-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0D1321]"
           >
@@ -509,6 +513,8 @@ function ProjectCard({ project }) {
           </a>
           <a
             href={project.source}
+            target="_blank"
+            rel="noopener noreferrer"
             aria-label={`View the source code for ${project.title}`}
             className="inline-flex items-center gap-1.5 text-[11px] font-medium text-slate-500 transition-colors duration-300 hover:text-white focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0D1321]"
           >

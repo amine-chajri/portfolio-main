@@ -10,7 +10,7 @@ export const navLinks = [
 ]
 
 export const socialLinks = [
-  { label: 'LinkedIn', href: '#', Icon: Linkedin },
-  { label: 'GitHub', href: '#', Icon: Github },
-  { label: 'Email', href: '#', Icon: Mail },
+  { label: 'LinkedIn', href: 'https://www.linkedin.com/in/amine-chajri/', Icon: Linkedin },
+  { label: 'GitHub', href: 'https://github.com/amine-chajri', Icon: Github },
+  { label: 'Email', href: 'mailto:chajriamine911@gmail.com', Icon: Mail },
 ]

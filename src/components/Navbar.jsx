@@ -116,6 +116,8 @@ export default function Navbar() {
                 <a
                   key={label}
                   href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   aria-label={label}
                   className="group flex h-8 w-8 items-center justify-center rounded-full border border-white/[0.08] bg-white/[0.035] text-slate-400 transition-all duration-300 hover:-translate-y-0.5 hover:border-cyan-300/30 hover:bg-cyan-300/10 hover:text-cyan-200 hover:shadow-[0_0_24px_-8px_rgba(34,211,238,0.7)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-cyan-400/60 focus-visible:ring-offset-2 focus-visible:ring-offset-[#0B0F19] sm:h-9 sm:w-9"
                 >
